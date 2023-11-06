@@ -1,1 +1,173 @@
 /* Your styles here */
+
+/* APPLY TO ALL */
+html {
+  /* Font size del Browser 16px */
+  font-size: 1.1em; /* 14.4 px */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+
+.bg-dark {
+  color: #eaeded;
+  background-color: #222f3e;
+}
+
+.bg-yellow {
+  color: #eaeded;
+  background-color: #f56600;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: 600;
+    color: #0b5467;
+}
+
+main p {
+  font-size: 1.4em;
+  padding: 15px;
+}
+.margin25 {
+    margin: 0px 25px 0px 25px;
+}
+/* HEADER */
+
+header img {
+    width: 10%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+header nav {
+    background-color: #364759;
+
+}
+
+header nav li {
+    display: inline-block;
+    background-color: #364759;
+    padding: 13px 5px 13px 5px;
+}
+
+header nav li#special-margin-left {
+    margin-left: 20px;
+}
+
+/* MAIN */
+
+
+div.giftcardtext p {
+    margin: 25px 0px 25px 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+div.giftcardbox {
+    background-image: url(../images/bg-image.png);
+    background-position: 70%;
+    margin-bottom: 35px;
+}
+
+div.giftcardbox h2 {
+    font-size: 2em;
+    color: #eaeded;
+    text-align: center;
+    padding: 60px 10px 25px 15px;
+    font-weight: bold;
+}
+
+div.giftcardbox h3 {
+    text-align: center;
+    color: #eaeded;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-bottom: 40px;
+}
+
+.slideshow {
+  background-color: white;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.imagebox img {
+  width: 20%;
+  height: 400px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 20px;
+  object-fit: fill;
+  box-sizing: border-box;
+  vertical-align: top;
+  /* padding: 10px; */
+  margin: 25px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2); 
+}
+
+.title {
+  text-align: left;
+  padding-top: 15px;
+}
+
+.title p, .title h5 {
+  display: inline; 
+  margin: 0; 
+  padding: 30px 0px 15px 15px;
+}
+
+.bigthumb {
+  text-align: center;
+}
+
+.bigthumb img {
+  width: 100%;
+
+}
+
+.box1 figcaption, .box1 h5{
+  display: inline;
+  padding: 100px 10px 100px 10px;
+
+}
+
+.box1 div {
+  margin: 5px 5px 30px 5px;
+}
+
+.box1 div figcaption {
+  font-size: 1.4em;
+}
+
+/* FOOTER */
+
+
+footer p {
+  background-color: #364759;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 15px;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer figure {
+  text-align: center;
+  padding: 60px;
+}
+
+footer figure img {
+  width: 12%; 
+  height: auto;
+}
